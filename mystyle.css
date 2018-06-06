@@ -1,0 +1,47 @@
+h2 {
+    color:steelblue;
+  }
+  h3{
+    color:blueviolet;
+  }
+  h4{
+      color:green;
+  }
+  p{
+    font-family:Arial, serif;
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  li{
+    font-family:Arial, serif;
+    font-style: italic;
+    font-size: 0.8em;
+    color:crimson;
+  }
+  .myclass{
+    color:blue;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  body {
+    background-color: yellow;
+}
+p {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover p {
+    display: block;
+}
+div {
+    width: 100px;
+    background: crimson;
+    -webkit-transition: width 2s; 
+    transition: width 2s;
+}
+div:hover {
+    width: 300px;
+}
+
