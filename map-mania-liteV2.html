@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Mario Ramirez
+    Class: Web & Distributed Programming
+    Session: su18-cpsc-24700-lt1
+    Description: Map Mania Lite Version 2
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania Version 2</title>
+        <link rel="stylesheet" href="mystyle5.css">
+        <script src="map-maniaV2.js"></script>
+        <style>
+            #myMapID {
+                height: 100%;
+                width: 100%;
+            }
+            html, body{
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>  
+    <body onload="initApp()">
+         <h1>Map Mania Lite </h1>
+         <h1>Top Ten Places Mario Has Visited Around the World Game</h1>
+         <button onclick="openWin()"> "Getting Started"</button>
+         <button onclick="openWinner()">"Win Now!"</button>
+
+    <script>
+var myWindow;
+
+function openWin() {
+    myWindow = window.open("", "myWindow", "width=200,height=100");
+    myWindow.document.write("<p>Scroll around the world map and locate Mario's best places he has visited during his travels. Each find will be worth 10 points, good luck and have fun.</p>");
+    
+}
+
+
+var myWindow;
+
+function openWinner() {
+    myWindow = window.open("", "myWindow", "width=200,height=100");
+    myWindow.document.write("<p>Congratulations, you have found all places and won the game.</p>");
+    
+}
+
+function closeWin() {
+    myWindow.close();
+}
+
+    </script>
+         Hint: <input id="hint-id" type="text" value="" size="120" disabled><br><br>
+         Score: <input id="score-id" type="text" value="" size="2" disabled><br><br>
+
+         <div id="myMapID"></div>
+
+         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBW-flAaafCiEnRa6tlNt8dT5uWmqXXfoY&callback=initMap"
+         async defer>
+         </script>
+    </body>
+</html>
