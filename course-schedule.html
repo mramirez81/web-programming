@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+    Author: Mario Ramirez
+    Calss: Web & Distributed Programming
+    Session: su18-cpsc-24700-lt1
+    Descriptio: Programming Assigment 2 Course Schedule
+-->
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Course Schedule &mdash; Mario Ramirez</title>
+    <link rel="stylesheet" type="text/css" href="mystyle2.css">
+</head>
+
+<body>
+    <div style="background-color:crimson;color:yellow;padding:20px;">
+        <div id="toc_container">
+            <p class="toc_title">Table of Contents</p>
+            <ul class="toc_list">
+                <li>
+                    <a href="#Biography">1 Biography</a>
+                </li>
+                <li>
+                    <a href="#Courses">2 Courses</a>
+                </li>
+                <li>
+                    <a href="#Schedule">3 Schedule</a>
+                </li>
+            </ul>
+        </div>
+        <h1>Course Schedule &mdash; Mario Ramirez</h1>
+        <h2 id="Biography">Biography</h2>
+        <p>My name is Mario Ramirez and I am from New York. My wife and I have a three month old baby girl. I have been in the
+            army for 15 years and I have served three times to Iraq and two times to Afghanistan. I graduated from Waubonsee
+            Community College and transferred to Lewis University this past Fall. A hobby of mine is definitely traveling
+            and watching sporting events GO Yankees (MLB), Giants (NFL), KNICKS(NBA) and USC TROJANS (FIGHT ON!!!!).</p>
+        <img src="usc.png" />
+        <h2 id="Courses">Courses</h2>
+
+        <ul>
+            <li>SP18 &mdash; FLAN &mdash; 10700 &mdash; 001: First-Year Arabic 1 (FRA)</li>
+            <li>SP18 &mdash; CPSC &mdash; 25000 &mdash; 001: File Systems Digital Forensics (FSDF)</li>
+            <li>SP18 &mdash; CPSC &mdash; 21000 &mdash; 003: Programming Fundamentals (PF)</li>
+            <li>SP18 &mdash; CPSC &mdash; 42500 &mdash; 001: Encryption (EC)</li>
+            <li>SP18 &mdash; THEO &mdash; 22500 &mdash; XX: The New Testament (NT)</li>
+            <h2 id="Schedule">Schedule</h2>
+            <table style="width:50%">
+                <tr>
+                    <td></td>
+                    <th scope="col">Monday</th>
+                    <th scope="col">Tuesday</th>
+                    <th scope="col">Wednesday</th>
+                    <th scope="col">Thursday</th>
+                    <th scope="col">Friday</th>
+                </tr>
+                <tr>
+                    <th scope="row">09:30am &mdash; 10:45am</th>
+                    <td></td>
+                    <td>FRA</td>
+                    <td></td>
+                    <td>FRA</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">12:00pm &mdash; 12:50pm</th>
+                    <td>PF</td>
+                    <td></td>
+                    <td>PF</td>
+                    <td></td>
+                    <td>PF</td>
+                </tr>
+                <tr>
+                    <th scope="row">12:30pm &mdash; 1:45pm</th>
+                    <td></td>
+                    <td>FSDF</td>
+                    <td></td>
+                    <td>FSDF</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">1:00pm &mdash; 1:50pm</th>
+                    <td>EC</td>
+                    <td></td>
+                    <td>EC</td>
+                    <td></td>
+                    <td>EC</td>
+                </tr>
+                <tr>
+                    <th scope="row">2:00pm &mdash; 3:15pm</th>
+                    <td></td>
+                    <td>NT</td>
+                    <td></td>
+                    <td>NT</td>
+                    <td></td>
+                </tr>
+            </table>
+
+            <form action="/action_page.php">
+
+                First name:
+                <input type="text" name="FirstName" value="">
+                <br> Last name:
+                <input type="text" name="LastName" value="">
+                <br>
+
+                <form action="">
+
+                    <input type="radio" name="gender" value="male"> Male
+                    <br>
+                    <input type="radio" name="gender" value="female"> Female
+                    <br>
+                    <button type="reset" value="Reset">Reset</button>
+                </form>
+                <h1>Feedback</h1>
+                <form action="/action_page.php">
+                    <textarea name="message" rows="10" cols="30"></textarea>
+                    <br>
+                    <form action="/action_page.php" method="get">
+                        <button type="Reset" value="Reset">Reset</button>
+                        <br>
+                        <button type="Submit" value="Sumit">Sumit</button>
+                        <br>
+                    </form>
+</body>
+
+</html>
