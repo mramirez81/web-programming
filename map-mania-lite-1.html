@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<!--
+    Author: Mario Ramirez
+    Class: Web & Distributed Programming
+    Session: su18-cpsc-24700-lt1
+    Description: Map Mania Lite 1
+-->
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania</title>
+        <link rel="stylesheet" href="mystyle4.css">
+        <script src="map-mania.js"></script>
+        <style>
+            #myMapID {
+                height: 100%;
+                width: 100%;
+            }
+            html, body{
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>  
+    <body onload="initApp()">
+         <h1>Map Mania Lite v1.1</h1>
+
+         <div id="myMapID"></div>
+
+         <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBW-flAaafCiEnRa6tlNt8dT5uWmqXXfoY&callback=initMap"
+         async defer>
+         </script>
+    </body>
+</html>
