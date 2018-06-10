@@ -1,0 +1,23 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+  }
+  button {
+    background-color: crimson;
+    border-radius: 6px;
+    border: none;
+    color: gold;
+    padding: 10px;
+    text-transform: uppercase;
+    width: 200px;
+    cursor: pointer;
+  }
+  #placeholder {
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+    margin: 50px auto;
+    border: 1px solid crimson;
+    border-radius: 10px;  
+    font-size:80px;
+  }
