@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 var gMap;
 
 var bestPlaces = [
@@ -72,7 +71,6 @@ function AddMarker(markerProperties){
             infoWindow.open(gMap, marker);
         });
     }
-=======
 var gMap;
 
 var bestPlaces = [
@@ -146,5 +144,4 @@ function AddMarker(markerProperties){
             infoWindow.open(gMap, marker);
         });
     }
->>>>>>> 2cd12ab19e3ee0aa1c808e37eee61c3aa45f8050
 }
