@@ -131,7 +131,7 @@ function SetScore(score) {
     document.getElementById("score-id").value = score;
 }
 
-function AddMarker(markerProperties){
+function AddMarker(markerProperties)
     var marker = new google.maps.Marker({position:markerProperties.coordinates, map:gMap});
 
     if (markerProperties.iconImagePath) {
