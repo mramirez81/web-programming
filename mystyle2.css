@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -23,4 +24,31 @@ th, td {
 
 #toc_container li, #toc_container ul, #toc_container ul li{
     list-style: outside none none !important;
+=======
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+#toc_container {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border: 1px solid #aaa;
+    display: table;
+    font-size: 95%;
+    margin-bottom: 1em;
+    padding: 20px;
+    width: auto;
+}
+
+.toc_title {
+    font-weight: 700;
+    text-align: center;
+}
+
+#toc_container li, #toc_container ul, #toc_container ul li{
+    list-style: outside none none !important;
+>>>>>>> 2cd12ab19e3ee0aa1c808e37eee61c3aa45f8050
 }
